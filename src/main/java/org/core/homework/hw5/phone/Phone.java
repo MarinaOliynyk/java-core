@@ -17,9 +17,6 @@ public class Phone implements Serializable {
         System.out.println("Звонит " + name);
     }
 
-    public String getNumber() {
-        return number;
-    }
     public Phone() {
     }
 

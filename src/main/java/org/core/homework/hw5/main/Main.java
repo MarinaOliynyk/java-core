@@ -17,9 +17,9 @@ public class Main {
         ph2.receiveCall("Матоша");
         ph3.receiveCall("Андрей");
 
-        ph1.getNumber();
-        ph2.getNumber();
-        ph3.getNumber();
+        System.out.println("Номер телефона: " + ph1.getNumber());
+        System.out.println("Номер телефона: " + ph2.getNumber());
+        System.out.println("Номер телефона: " + ph3.getNumber());
 
         ph1.receiveCall("Мама", "+79171699999");
         ph2.receiveCall("Матоша", "+79675556666");
