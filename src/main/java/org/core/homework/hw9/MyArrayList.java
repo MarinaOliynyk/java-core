@@ -17,6 +17,9 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     public MyArrayList(MyList<? extends T> col) {
+        if (col.size() > elements.length) {
+            elements = (T[]) new Object[col.size()];
+        }
         for (int i = 0; i < col.size(); i++) {
             add(col.get(i));
         }
