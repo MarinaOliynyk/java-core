@@ -3,8 +3,8 @@ package org.core.homework.hw8;
 public class Main {
 
     public static void main(String[] args) {
-        HeadFactory headFactory = new HeadFactoryImplementation();
-        BodyFactory bodyFactory = new BodyFactoryImplementation();
+        HeadFactory headFactory = new HeadFactoryImpl();
+        BodyFactory bodyFactory = new BodyFactoryImpl();
 
         int count = 1;
         for (int i = 0; i < 3; i++) {
