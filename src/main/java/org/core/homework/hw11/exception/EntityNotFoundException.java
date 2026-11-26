@@ -1,0 +1,9 @@
+package org.core.homework.hw11.exception;
+
+public class EntityNotFoundException extends RuntimeException {
+
+    public EntityNotFoundException(String message) {
+        super(message);
+    }
+
+}
